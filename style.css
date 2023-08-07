@@ -10,3 +10,90 @@ body {
     font-family: 'Poppins', sans-serif;
     font-family: 'Red Rose', cursive;
 }
+
+/* ____________________ */
+/*       Header         */
+/* ____________________ */
+
+.navbar {
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+/* logo */
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.border:hover {
+    border: 1px solid white;
+}
+
+.logo {
+    background-image: url(./Photos/amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+/* location */
+.add-one {
+    color: #cccccc;
+    font-size: 0.80rem;
+    margin-left: 16px;
+}
+
+.add-second {
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.location-icon {
+    display: flex;
+    align-items: center;
+}
+
+/* Search */
+.search {
+    display: flex;
+    height: 40px;
+    width: 630px;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+.search-select {
+    background-color: #f3f3ff ;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 50px;
+    text-align: center;
+    border: none;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 5px ;
+    border-bottom-right-radius: 5px;
+    color: #0F1111;
+}
+
+
+
+
+
