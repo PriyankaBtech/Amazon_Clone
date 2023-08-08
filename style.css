@@ -21,6 +21,7 @@ body {
     color: white;
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 
 /* logo */
@@ -63,7 +64,7 @@ body {
     height: 40px;
     width: 630px;
     border-radius: 5px;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .search-select {
@@ -93,7 +94,67 @@ body {
     color: #0F1111;
 }
 
+.search:hover {
+    border: 3px solid orange;
+    border-radius: 8px;
+}
 
+/* Sign in */
+span {
+    font-size: 0.80rem;
+}
+
+.account {
+    font-size: 0.90rem;
+    font-weight: 700;
+}
+
+/* Cart */
+.cart {
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+.cart i {
+    font-size: 30px;
+}
+
+
+/*  Panel  */
+/* _______ */
+
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-options {
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panel-options p {
+    display: inline;
+    margin-left: 10px;
+}
+
+.panel-deals {
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+/* ____________________ */
+/*       section         */
+/* ____________________ */
+
+.hero-section {
+    background-image: url(./Photos/hero_image.jpg);
+    background-size: 100% 100%;
+    height: 600px;
+}
 
 
 
